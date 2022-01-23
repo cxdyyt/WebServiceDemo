@@ -20,7 +20,7 @@ import com.interview.bank.service.AccountService;
 public class AccountController {
     private static String FAIL_MSG = "Action fail";
 
-    private static String SUCCESS_MSG = "Action fail";
+    private static String SUCCESS_MSG = "Action successful";
 
     @Autowired
     private AccountService accountService;
