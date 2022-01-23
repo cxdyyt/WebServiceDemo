@@ -58,12 +58,4 @@ public class Account implements Serializable {
         this.gender = gender;
     }
 
-    // public Date getBirthday() {
-    // return birthday;
-    // }
-    //
-    // public void setBirthday(Date birthdate) {
-    // this.birthday = birthdate;
-    // }
-
 }

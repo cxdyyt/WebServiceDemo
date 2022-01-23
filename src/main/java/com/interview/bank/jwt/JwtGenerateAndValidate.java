@@ -13,7 +13,7 @@ public class JwtGenerateAndValidate {
     /**
      * Expired time
      */
-    private static final long EXPIRE_TIME = 10 * 60 * 1000;
+    private static final long EXPIRE_TIME = 100 * 60 * 1000;
 
     /**
      * Jwt secret

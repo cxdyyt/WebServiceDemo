@@ -11,10 +11,6 @@ public class WebExceptionHandler {
     @ResponseBody
     @ExceptionHandler(InvalidTokenException.class)
     public Object handleException(Exception e) {
-        String msg = e.getMessage();
-        if (msg != null || !msg.isEmpty()) {
-            return e.getMessage();
-        }
-        return null;
+        return e.getMessage();
     }
 }
